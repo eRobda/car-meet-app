@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: #f2f2f2;
+      }
 
+      .profile-image {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+      }
+
+      .username {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .info div {
+        margin: 0 10px;
+      }
+
+      .user-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .user-content img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile">
+      <img class="profile-image" src="https://via.placeholder.com/200x200" alt="Profile Image">
+      <div class="username">Username</div>
+      <div class="info">
+        <div>Drives: Car Model</div>
+        <div>Location: City, Country</div>
+      </div>
+      <div class="user-content">
+        <img src="https://via.placeholder.com/300x300" alt="User Content">
+        <img src="https://via.placeholder.com/300x300" alt="User Content">
+        <img src="https://via.placeholder.com/300x300" alt="User Content">
+      </div>
+    </div>
+  </body>
+</html>
